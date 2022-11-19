@@ -1,0 +1,62 @@
+H1 {
+    font-style: italic;
+    color: green;
+}
+
+.container {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 300;
+}
+
+.nav-1 {
+  background-color: #00b0f0;
+}
+
+.carousel {
+  background-color: #00b0f0;
+}
+
+.header {
+  background-color: #0070c0;
+}
+
+.nav-2 {
+  background-color: #002060;
+}
+
+.article {
+  background-color: #c00000;
+  min-height: 10rem;
+}
+
+.aside {
+  background-color: #00b050;
+}
+
+.aside1 {
+  background-color: #00b0f0;
+}
+
+.aside2 {
+  background-color: #0070c0;
+}
+
+.footer {
+  background-color: #7030a0;
+}
+
+
+.nav-1,
+.header,
+.nav-2,
+.article,
+.aside,
+.footer {
+  color: #fff;
+}
+
+.aside1,
+.aside2 {
+  color: #000;
+}

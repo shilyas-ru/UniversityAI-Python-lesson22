@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <title>Описание файлов в домашке по уроку 19 Основы HTML / CSS. Bootstrap</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+<!--  <link href="../../templates/css/bootstrap4/bootstrap4.6.2.css" rel="stylesheet">-->
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+        crossorigin="anonymous">
+  <link href="/static/css/styles.css" rel="stylesheet">
+<!--  <style>-->
+<!--  </style>-->
+</head>
+
+<body>
+
+  <!-- NAV #1 fixed-top-->
+  <div class="container">
+    <nav>
+      <div class="row nav-1">
+      <!-- NAV #1 -->
+        <div class="col-md-12">
+          <div>
+            <ul class="nav justify-content-end">
+              <li class="nav-item">
+                <a class="nav-link active"
+                   href="hhparser/index.html"
+                   style="color: #fff;"
+                   target="_blank">Шаблон для парсера ха-ха ру</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"
+                   href="bootstrap4/test_bs4.html"
+                   style="color: #fff;"
+                   target="_blank">Макет страницы с разными блоками</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"
+                   href="bootstrap5/test_carousel.html"
+                   target="_blank"
+                   style="color: #fff;">Макет карусели</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!--  Title -->
+  <div class="container">
+    <div class="row pb-5 align-items-center">
+      <div class="col-sm-8">
+        <h1>Домашка по уроку 19 <br>"Основы HTML / CSS. Bootstrap"</h1>
+        <p class="mb-0">Выравнивание (вертикальное, горизонтальное):</p>
+          <ul>
+            <li><a href="https://getbootstrap.com/docs/4.6/utilities/flex/" target="_blank">
+              https://getbootstrap.com/docs/4.6/utilities/flex/</a></li>
+            <li><a href="https://bootstrap-4.ru/docs/4.6/utilities/flex/" target="_blank">
+              https://bootstrap-4.ru/docs/4.6/utilities/flex/</a></li>
+          </ul>
+      </div>
+      <div class="col-sm-3 align-self-center">
+        <p class="font-weight-bold text-center text-primary"
+           style="text-indent: 0em;">Внимание!!!<br>Ссылки в меню
+                       открываются в новом окне
+                       браузера.</p>
+        <p class="font-weight-bold text-center text-warning"
+           style="text-indent: 0em;">Получение из формы данных и выгрузка
+                       результата выполняется только в "шаблоне для парсера ха-ха ру".
+                       Остальные страницы используются как что-то, отображаемое
+                       Flask'ом и для проверки правильного понимания структуры
+                       каталогов Flask'а.</p>
+      </div>
+    </div>
+    <div class="row justify-content-between">
+      <div class="col-sm-5 align-self-center">
+        <p class="font-weight-bold text-center text-danger"
+           style="text-indent: 0em;">Пояснение.</p>
+        <ul>
+          <li>
+            Эта страница, что сейчас отображается - смотрим,
+            как работают меню, таблицы и абзацы в Bootstrap'е.
+            Немного добавлено блоков и вертикальное центрирование
+            двух рядом стоящих блоков. Сделано уведомление и форма для ввода данных.
+          </li>
+          <li>
+            Меню "Шаблон для парсера ха-ха ру" - это
+            парсер, который делается в рамках домашек. Код как в разборе.
+          </li>
+          <li>
+            Меню "Макет страницы с разными блоками" - это я
+            разбирался со структурой блоков в Bootstrap'е.
+          </li>
+          <li>
+            Меню "Макет страницы с разными блоками" - это я
+            разбирался с каруселью и карточками в Bootstrap'е.
+          </li>
+          <li>
+            Меню "Disabled" - это пример заблокированного
+            пункта меню в Bootstrap'е. Просто для того,
+            чтобы посмотреть, как оно выглядит.
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-7">
+        <p>Класс .table-sm чтобы сделать таблицы компактнее
+          урезанием паддинга ячейки на 50%.</p>
+        <p>Ряды с :hover Добавьте класс .table-hover
+          в &lt;tbody&gt; для активации :hover у рядов таблицы.</p>
+        <table class="table table-sm table-hover table-bordered">
+          <thead>
+            <tr>
+              <th class="align-middle" scope="col">#</th>
+              <th class="align-middle" scope="col">Extra small &lt;576px</th>
+              <th class="align-middle" scope="col">Small &ge;576px</th>
+              <th class="align-middle" scope="col">Medium &ge;768px</th>
+              <th class="align-middle" scope="col">Large &ge;992px</th>
+              <th class="align-middle" scope="col">Extra large &ge;1200px</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th class="text-nowrap text-left" scope="row">.container</th>
+              <td>100%</td>
+              <td>540px</td>
+              <td>720px</td>
+              <td>960px</td>
+              <td>1140px</td>
+            </tr>
+            <tr>
+              <th class="text-nowrap text-left" scope="row">.container-sm</th>
+              <td>100%</td>
+              <td>100%</td>
+              <td>720px</td>
+              <td>960px</td>
+              <td>1140px</td>
+            </tr>
+            <tr>
+              <th class="text-nowrap text-left" scope="row">.container-md</th>
+              <td>100%</td>
+              <td>100%</td>
+              <td>100%</td>
+              <td>960px</td>
+              <td>1140px</td>
+            </tr>
+            <tr>
+              <th class="text-nowrap text-left" scope="row">.container-lg</th>
+              <td>100%</td>
+              <td>100%</td>
+              <td>100%%</td>
+              <td>960px</td>
+              <td>1140px</td>
+            </tr>
+            <tr>
+              <th class="text-nowrap text-left" scope="row">.container-xl</th>
+              <td>100%</td>
+              <td>100%</td>
+              <td>100%</td>
+              <td>100%</td>
+              <td>1140px</td>
+            </tr>
+            <tr>
+              <th class="text-nowrap text-left" scope="row">.container-fluid</th>
+              <td>100%</td>
+              <td>100%</td>
+              <td>100%</td>
+              <td>100%</td>
+              <td>100%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+
+  <div class="row justify-content-center">
+    <div class="col-sm-8">
+      <div class="alert alert-success rounded-pill" role="alert">
+        <div class="row justify-content-center">
+          <div class="col-sm-11">
+            <h4 class="alert-heading pl-5 pr-5">Использование границ радиуса элемента.</h4>
+            <p class="pl-3 pr-3 indent">Вы успешно прочитали это важное сообщение.
+               Это пример текста немного длиннее, так что вы увидите,
+               как работают отступы в сообщениях уведомлений.</p>
+            <hr>
+            <p class="pl-3 pr-3 indent">Когда необходимо, используйте
+              марджины для создания необходимых отступов.</p>
+            <p class="pl-3 pr-3 indent">Это дополнительное уведомление с
+              <a href="#" class="alert-link">примером ссылки</a>.</p>
+            <p class="pl-3 pr-3 indent">В этом уведомлении используются отступы
+              слева-справа и отступ первой строки;<br>
+              текст выше (кроме этого абзаца) частично оставлен из справки по bootstrap'у.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col rounded alert alert-primary">
+        <h4 class="alert-heading pl-5 pr-5 text-primary h5 text-center">Форма ввода.</h4>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-3 align-self-center rounded-pill alert alert-primary">
+        <p class="text-primary text-center">Форма для примера.
+          При нажатии на кнопку - нет обработки данных, вводимых в форму,
+          но переходит на страницу Макет карусели</p>
+      </div>
+
+      <div class="offset-sm-1 col-sm-8">
+        <form target="_blank" action="/bootstrap5/test_carousel.html" method="post">
+          <div class="form-group row">
+            <label for="exampleInputEmail1"
+                   class="col-sm-2 col-form-label-sm text-left">Email address</label>
+            <input type="email"
+                   class="col-sm-10 form-control form-control-sm"
+                   id="exampleInputEmail1"
+                   aria-describedby="emailHelp"
+                   placeholder="Укажите адрес эл.почты">
+            <small id="emailHelp"
+                   class="form-text text-muted col-form-label-sm">Тут подробное
+                  пояснение по поводу поля выше.</small>
+          </div>
+          <div class="form-group row">
+            <label for="exampleInputEmail1"
+                   class="col-sm-2 col-form-label-sm text-left">Какое-то поле</label>
+            <input type="email"
+                   class="col-sm-10 form-control form-control-sm align-self-center"
+                   id="exampleInputTmp"
+                   placeholder="Укажите что-нибудь, что является адресом эл.почты">
+            <small id="TmpHelp"
+                   class="form-text text-muted col-form-label-sm">Тут подробное
+                  пояснение по поводу поля выше.</small>
+          </div>
+          <div class="form-group row">
+            <label for="exampleInputPassword1"
+                   class="col-sm-2 col-form-label-sm text-left">Password</label>
+            <input type="password"
+                   class="col-sm-10 form-control form-control-sm"
+                   id="exampleInputPassword1"
+                   placeholder="Введите пароль">
+            <small id="Password1Help"
+                   class="form-text text-muted col-form-label-sm">Тут подробное
+                  пояснение по поводу поля выше.</small>
+          </div>
+          <button type="submit"
+                  class="btn btn-primary">Условно обработать форму и перейти на Макет карусели</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery -->
+  <script src="/examples/vendors/jquery/jquery-3.3.1.min.js"></script>
+  <!-- Popper -->
+  <script src="/examples/vendors/popper.js/popper.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="/examples/vendors/bootstrap-4/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

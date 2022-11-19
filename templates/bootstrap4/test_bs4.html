@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <title>Пример адаптивно-фиксированного макета, построенного с использованием Bootstrap 4</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+        crossorigin="anonymous">
+  <link href="/static/css/bootstrap4/styles_bs4.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- NAV #1 fixed-top -->
+    <div class="container">
+      <div class="row">
+        <!-- NAV #1 -->
+        <nav class="col-md-6 col-xl-12 nav-1 order-md-1 order-xl-0">
+          NAV #1
+        </nav>
+      </div>
+    </div>
+
+  <!-- HEADER -->
+  <div class="container">
+    <div class="row">
+      <!-- HEADER #1 -->
+      <header class="col-md-6 col-xl-12 header order-md-0 order-xl-1">
+        HEADER #1 under NAV #1
+      </header>
+    </div>
+  </div>
+
+  <!--  Титул -->
+  <div class="container">
+    <h1 class="h4 text-center my-4">Пример адаптивно-фиксированного макета, построенного с использованием Bootstrap 4</h1>
+    <div class="lead mb-2">
+      Текущая контрольная точка:
+      <span class="d-inline d-sm-none">XS (Extra small)</span>
+      <span class="d-none d-sm-inline d-md-none">SM (Small)</span>
+      <span class="d-none d-md-inline d-lg-none">MD (Medium)</span>
+      <span class="d-none d-lg-inline d-xl-none">LG (Large)</span>
+      <span class="d-none d-xl-inline">XL (Extra large)</span>
+    </div>
+  </div>
+
+  <!-- HEADER #2 и carousel -->
+  <div class="container">
+    <div class="row">
+      <!-- HEADER #2 -->
+      <header class="col-md-6 col-xl-12 header">
+        HEADER #2
+      </header>
+      <!-- carousel -->
+      <div class="col-md-6 col-xl-12 carousel">
+        CAROUSEL
+      </div>
+    </div>
+  </div>
+
+  <!-- ОСНОВНОЙ КОНТЕНТ -->
+  <main>
+    <div class="container">
+      <div class="row">
+        <!-- NAV #2 -->
+        <nav class="col-xl-2 nav-2">
+          NAV #2
+        </nav>
+        <!-- ARTICLE -->
+        <article class="col-md-8 col-xl-7 article">
+          ARTICLE
+        </article>
+        <!-- ASIDE -->
+        <aside class="col-md-4 col-xl-3 aside">
+          ASIDE
+          <div class="row">
+            <!-- ASIDE #1 -->
+            <aside class="col-sm-6 col-md-6 aside1">
+              ASIDE #1
+            </aside>
+            <!-- ASIDE #2 -->
+            <aside class="col-sm-6 col-md-6 aside2">
+              ASIDE #2
+            </aside>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER  fixed-bottom -->
+  <footer>
+    <div class="container footer">
+      FOOTER
+    </div>
+  </footer>
+
+  <!-- jQuery -->
+  <script src="/examples/vendors/jquery/jquery-3.3.1.min.js"></script>
+  <!-- Popper -->
+  <script src="/examples/vendors/popper.js/popper.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="/examples/vendors/bootstrap-4/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
